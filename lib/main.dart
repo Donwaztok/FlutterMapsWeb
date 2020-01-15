@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final request = DirectionsRequest()
       ..origin = start
       ..destination = end
-      ..travelMode = TravelMode.WALKING;
+      ..travelMode = TravelMode.DRIVING;
 
     // Route the directions and pass the response to a
     // function to create markers for each step.
